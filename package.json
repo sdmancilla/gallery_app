@@ -1,0 +1,24 @@
+{
+  "name": "gallery_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdmancilla/gallery_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdmancilla/gallery_app/issues"
+  },
+  "homepage": "https://github.com/sdmancilla/gallery_app#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
